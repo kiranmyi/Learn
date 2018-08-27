@@ -5,8 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-public abstract class BaseTest implements AutoContsant{
-	
+public abstract class BaseTest implements AutoContsant
+{
 	public WebDriver driver;
 	static
 	{
