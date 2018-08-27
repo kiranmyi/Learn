@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31052" started-at="2018-08-27T04:59:23Z" finished-at="2018-08-27T04:59:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31052" started-at="2018-08-27T04:59:23Z" finished-at="2018-08-27T04:59:54Z">
+      <class name="com.actitime.tests.LoginTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.actitime.tests.LoginTest@57baeedf]" name="preCondition" is-config="true" duration-ms="23466" started-at="2018-08-27T04:59:23Z" finished-at="2018-08-27T04:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.actitime.tests.LoginTest@57baeedf]" name="login" duration-ms="6818" started-at="2018-08-27T04:59:47Z" finished-at="2018-08-27T04:59:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.tests.LoginTest@57baeedf]" name="postCondition" is-config="true" duration-ms="670" started-at="2018-08-27T04:59:54Z" finished-at="2018-08-27T04:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
